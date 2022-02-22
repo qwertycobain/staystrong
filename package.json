@@ -1,21 +1,26 @@
 {
-  "name": "lista",
+  "name": "api-crud",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "javascript for a dummie",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "nodemon src/index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwertycobain/staystrong.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwertycobain/staystrong/issues"
+  },
+  "homepage": "https://github.com/qwertycobain/staystrong#readme",
   "dependencies": {
-    "body-parser": "^1.19.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
     "express": "^4.17.2",
-    "mongodb": "^4.3.1",
-    "mongoose": "^6.2.0",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.2.2"
   }
 }

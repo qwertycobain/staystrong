@@ -1,2 +1,2 @@
 # staystrong
-site de cadastro em nodejs
+api de cadastro em nodejs, usando express e mongodb

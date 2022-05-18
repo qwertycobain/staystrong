@@ -1,2 +1,2 @@
 # staystrong
-site de cadastro em nodejs
+api crud em node js com express e mongoose 
